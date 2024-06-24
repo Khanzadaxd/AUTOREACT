@@ -120,6 +120,14 @@
       transition: all 0.3s ease;
     }
 
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.7;
+      animation: heartbeat 1.5s ease-in-out infinite;
+    }
+
     .btn-primary {
       background-color: #03ac13;
       color: #fff;
@@ -274,6 +282,9 @@
     <div id="result" class="mt-4 p-4 rounded-bubble hidden"></div>
     <button id="back-button" class="btn btn-primary w-full hidden" onclick="window.location.href='https://www.facebook.com/dre.xyz0'">Message me!</button>
   </div>
+  <footer>
+      <p>API Documentation - Created by <a class="link" href="https://www.facebook.com/100017375410153">Sensui</a></p>
+  </footer>
 
   <script>
     const form = document.getElementById('boost-form');
